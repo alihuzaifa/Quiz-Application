@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greet User</title>
+    
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="../../../../Bootstrap/bootstrap.css">
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+          <!-- navbar -->
+          <header>
+            <nav class="navbar navbar-light bg-light">
+                <div class="container-fluid">
+                  <span class="navbar-brand mb-0 h1 fw-bold py-2 fs-3 text-primary">Quiz Application</span>
+                </div>
+              </nav>
+        </header>
+
+
+        <div class="center-box text-center mt-5 pt-5 pb-2">
+            <div class="container mt-5 pt-2">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 offset-md-1 bg-primary text-dark fs-2 py-2 font">
+                       You got <span class="score"></span>/10 
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 offset-3 col-sm-6 offset-md-3 col-md-2 offset-md-5 btn btn-success mt-2 fw-bold fs-4 font" onclick="backToQuiz()">
+                       Play Again
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Custom Javascript -->
+        <script src="greet.js"></script>
+
+</body>
+</html>

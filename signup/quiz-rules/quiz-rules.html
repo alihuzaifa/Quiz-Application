@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- Bootstrap CDN link -->
+    <link rel="stylesheet" href="../../Bootstrap/bootstrap.css">
+
+    <!-- Custom Css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-light light shadow">
+            <div class="container-fluid">
+                <span class="navbar-brand mb-0 h1 fw-bold py-2 fs-3 text-primary">Quiz Application</span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ALL QUIZ BOXES -->
+    <div class="center mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div
+                  id="hover-effect-fir"  class="col-12 rounded col-sm-12 mb-1 text-center text-sm-center text-md-start col-md-8 offset-md-2 py-4 bg-light user-select-none  fs-2">
+                    Choose Your Subject
+                </div>
+            </div>
+            <div class="row">
+                <div id="mtop" class="col-12 rounded col-sm-12 text-center mb-1 text-sm-center text-md-start col-md-8 offset-md-2 py-4 bg-light text-primary fs-4 special" onclick="checkQuiz(this)">HTML</div>
+
+                <div class="col-12 rounded col-sm-12 text-center mb-1 text-sm-center text-md-start col-md-8 offset-md-2 py-4 bg-light text-primary fs-4 special" onclick="checkQuiz(this)">CSS</div>
+
+                <div class="col-12 rounded col-sm-12 text-center mb-1 text-sm-center text-md-start col-md-8 offset-md-2 py-4 bg-light text-primary fs-4 special" onclick="checkQuiz(this)">JAVASCRIPT</div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript code -->
+    <script src="app.js"></script>
+</body>
+
+</html>

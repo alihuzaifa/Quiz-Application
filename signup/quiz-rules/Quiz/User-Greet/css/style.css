@@ -1,0 +1,7 @@
+/* Media query */
+@media only screen and (max-width: 600px) {
+    .font{
+        font-size: 20px !important;
+        font-weight: 600 !important;
+    }
+}
